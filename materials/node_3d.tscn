@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bf23v7gyhip4j"]
+
+[ext_resource type="PackedScene" uid="uid://crpur4c1s0ubl" path="res://materials/indy.tscn" id="1_phpix"]
+[ext_resource type="PackedScene" uid="uid://7l1irinimxa" path="res://addons/srcoder_simplecar/car.tscn" id="2_7byqf"]
+[ext_resource type="PackedScene" uid="uid://rjx8tx5y7j2p" path="res://addons/srcoder_simplecar/follow_camera.tscn" id="3_7byqf"]
+
+[node name="Node3D" type="Node3D" unique_id=1484424040]
+
+[node name="indy" parent="." unique_id=1409116891 instance=ExtResource("1_phpix")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2627472, 1.1920929e-07, 0.33593154)
+
+[node name="car" parent="." unique_id=1095212158 instance=ExtResource("2_7byqf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 200, 0)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+gravity_scale = 6.832
+max_wheel_rpm = 10000.0
+
+[node name="FollowCamera" parent="." unique_id=517609100 node_paths=PackedStringArray("follow_target") instance=ExtResource("3_7byqf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2683, 5129, 11073)
+follow_target = NodePath("../car")
+camera_distance = 10.5
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1091807341]
+transform = Transform3D(1, 0, 0, 0, 0.4969739, 0.8677655, 0, -0.8677655, 0.4969739, 0, 0, 0)
+light_energy = 1.23

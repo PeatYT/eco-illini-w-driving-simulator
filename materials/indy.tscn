@@ -1,0 +1,692 @@
+[gd_scene format=3 uid="uid://crpur4c1s0ubl"]
+
+[ext_resource type="PackedScene" uid="uid://dgsl45pu541l2" path="res://blender/indy.blend" id="1_5tomt"]
+[ext_resource type="Material" uid="uid://bq2pv74josa1f" path="res://materials/grass.tres" id="2_nlp6p"]
+[ext_resource type="Material" uid="uid://k5cvl5f5wyt3" path="res://materials/buildings.tres" id="3_k81vj"]
+[ext_resource type="Material" uid="uid://dugbppwo0gpi8" path="res://materials/conrete_lot.tres" id="4_pejn8"]
+[ext_resource type="Material" uid="uid://di5jlh746kysu" path="res://materials/sand.tres" id="5_m06dq"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_5tomt"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nlp6p"]
+render_priority = -10
+depth_draw_mode = 1
+albedo_color = Color(0.11, 0.091024995, 0.0605, 1)
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_5tomt"]
+
+[node name="indy" unique_id=1409116891 instance=ExtResource("1_5tomt")]
+
+[node name="Areas_001" parent="." index="0" unique_id=674562619]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_002" parent="." index="1" unique_id=90294132]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_003" parent="." index="2" unique_id=517098218]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_004" parent="." index="3" unique_id=2054980191]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_005" parent="." index="4" unique_id=1481854747]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_006" parent="." index="5" unique_id=66455566]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_007" parent="." index="6" unique_id=1137895321]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_008" parent="." index="7" unique_id=1420894754]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_009" parent="." index="8" unique_id=1691591771]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_010" parent="." index="9" unique_id=593446967]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_011" parent="." index="10" unique_id=234724758]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_012" parent="." index="11" unique_id=416686064]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_013" parent="." index="12" unique_id=1615680747]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_014" parent="." index="13" unique_id=1177006652]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_015" parent="." index="14" unique_id=924690429]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_016" parent="." index="15" unique_id=1688976326]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_017" parent="." index="16" unique_id=46817371]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_018" parent="." index="17" unique_id=1096216090]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_019" parent="." index="18" unique_id=2114113747]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_020" parent="." index="19" unique_id=1774655130]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_021" parent="." index="20" unique_id=563117205]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_022" parent="." index="21" unique_id=1406697450]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_023" parent="." index="22" unique_id=1571338658]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_024" parent="." index="23" unique_id=1840931868]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Areas_025" parent="." index="24" unique_id=8193276]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_026" parent="." index="25" unique_id=1483652978]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_027" parent="." index="26" unique_id=1328318397]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_028" parent="." index="27" unique_id=853295911]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_029" parent="." index="28" unique_id=1551085487]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_030" parent="." index="29" unique_id=1610918406]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_031" parent="." index="30" unique_id=782758832]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_032" parent="." index="31" unique_id=1887824164]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_033" parent="." index="32" unique_id=1572512170]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_034" parent="." index="33" unique_id=1576225924]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_035" parent="." index="34" unique_id=972340395]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_036" parent="." index="35" unique_id=2085531455]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_037" parent="." index="36" unique_id=816204459]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_038" parent="." index="37" unique_id=987262193]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_039" parent="." index="38" unique_id=447344245]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_040" parent="." index="39" unique_id=1231295258]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_041" parent="." index="40" unique_id=1186506166]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_042" parent="." index="41" unique_id=304586964]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_043" parent="." index="42" unique_id=715047327]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_044" parent="." index="43" unique_id=282913274]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_045" parent="." index="44" unique_id=1975135338]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+surface_material_override/0 = ExtResource("2_nlp6p")
+
+[node name="Areas_046" parent="." index="45" unique_id=936507699]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_047" parent="." index="46" unique_id=877637300]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_048" parent="." index="47" unique_id=1259483149]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_049" parent="." index="48" unique_id=1064923667]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("5_m06dq")
+
+[node name="Areas_050" parent="." index="49" unique_id=1124459454]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_051" parent="." index="50" unique_id=964979918]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_053" parent="." index="51" unique_id=189187127]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_054" parent="." index="52" unique_id=1883526597]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+surface_material_override/0 = ExtResource("2_nlp6p")
+
+[node name="Areas_055" parent="." index="53" unique_id=828161750]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+surface_material_override/0 = ExtResource("2_nlp6p")
+
+[node name="Areas_056" parent="." index="54" unique_id=1136892971]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+surface_material_override/0 = ExtResource("2_nlp6p")
+
+[node name="Areas_057" parent="." index="55" unique_id=1392808403]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+surface_material_override/0 = ExtResource("2_nlp6p")
+
+[node name="Areas_058" parent="." index="56" unique_id=54576487]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_059" parent="." index="57" unique_id=111517056]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_060" parent="." index="58" unique_id=245779832]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_061" parent="." index="59" unique_id=1973902213]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_062" parent="." index="60" unique_id=276973284]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_063" parent="." index="61" unique_id=551471939]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_064" parent="." index="62" unique_id=636734964]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_065" parent="." index="63" unique_id=1404980261]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_066" parent="." index="64" unique_id=1630282153]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_067" parent="." index="65" unique_id=891797151]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_068" parent="." index="66" unique_id=613410184]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_069" parent="." index="67" unique_id=1640133729]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_070" parent="." index="68" unique_id=1474831796]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_071" parent="." index="69" unique_id=22564530]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_072" parent="." index="70" unique_id=338841316]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_073" parent="." index="71" unique_id=1093529212]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_074" parent="." index="72" unique_id=904736351]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_075" parent="." index="73" unique_id=518899960]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_076" parent="." index="74" unique_id=1164429586]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_077" parent="." index="75" unique_id=1394839551]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_078" parent="." index="76" unique_id=1988903906]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_079" parent="." index="77" unique_id=1896686900]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_080" parent="." index="78" unique_id=1658859225]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_081" parent="." index="79" unique_id=206330834]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("5_m06dq")
+
+[node name="Areas_082" parent="." index="80" unique_id=793377390]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_083" parent="." index="81" unique_id=737019378]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_084" parent="." index="82" unique_id=673065288]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_085" parent="." index="83" unique_id=900662683]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_086" parent="." index="84" unique_id=445855135]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_052" parent="." index="85" unique_id=379040958]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("5_m06dq")
+
+[node name="Areas_087" parent="." index="86" unique_id=156414911]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("5_m06dq")
+
+[node name="Areas_088" parent="." index="87" unique_id=1835673348]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("5_m06dq")
+
+[node name="Areas_089" parent="." index="88" unique_id=91022707]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_090" parent="." index="89" unique_id=1907044051]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_091" parent="." index="90" unique_id=1550698331]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_092" parent="." index="91" unique_id=2028407474]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_093" parent="." index="92" unique_id=603381647]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_094" parent="." index="93" unique_id=1294823738]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_095" parent="." index="94" unique_id=489235399]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_096" parent="." index="95" unique_id=600404134]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_097" parent="." index="96" unique_id=963579438]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_098" parent="." index="97" unique_id=352455903]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+visible = false
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_099" parent="." index="98" unique_id=167008997]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_100" parent="." index="99" unique_id=1312377863]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_101" parent="." index="100" unique_id=1248597576]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_102" parent="." index="101" unique_id=335083565]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_103" parent="." index="102" unique_id=2098570063]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_104" parent="." index="103" unique_id=1964960843]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_105" parent="." index="104" unique_id=2118115021]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_106" parent="." index="105" unique_id=1641483211]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_107" parent="." index="106" unique_id=1108203936]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_108" parent="." index="107" unique_id=2013974985]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_109" parent="." index="108" unique_id=1811890727]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("2_nlp6p")
+
+[node name="Areas_110" parent="." index="109" unique_id=472875117]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_111" parent="." index="110" unique_id=1810301565]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_112" parent="." index="111" unique_id=1975871376]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_113" parent="." index="112" unique_id=1978951043]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_114" parent="." index="113" unique_id=544943378]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_115" parent="." index="114" unique_id=550610586]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_116" parent="." index="115" unique_id=1298996340]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_117" parent="." index="116" unique_id=864151827]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_118" parent="." index="117" unique_id=36376129]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_119" parent="." index="118" unique_id=907249946]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_120" parent="." index="119" unique_id=1388765]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_121" parent="." index="120" unique_id=967809513]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_122" parent="." index="121" unique_id=134619564]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_123" parent="." index="122" unique_id=548035212]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_124" parent="." index="123" unique_id=415566754]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_125" parent="." index="124" unique_id=846137076]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_126" parent="." index="125" unique_id=1240717338]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_127" parent="." index="126" unique_id=2122648136]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_128" parent="." index="127" unique_id=1539414459]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_129" parent="." index="128" unique_id=1632711424]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_130" parent="." index="129" unique_id=2086807126]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_131" parent="." index="130" unique_id=1963066830]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_132" parent="." index="131" unique_id=989891467]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_133" parent="." index="132" unique_id=541048592]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_134" parent="." index="133" unique_id=507131978]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_135" parent="." index="134" unique_id=2053734057]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("4_pejn8")
+
+[node name="Areas_136" parent="." index="135" unique_id=813259081]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_137" parent="." index="136" unique_id=247415038]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_138" parent="." index="137" unique_id=1452039033]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_140" parent="." index="138" unique_id=1524361022]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Areas_141" parent="." index="139" unique_id=401718009]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Areas_142" parent="." index="140" unique_id=1521902892]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_143" parent="." index="141" unique_id=1158076165]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_144" parent="." index="142" unique_id=1748512296]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_145" parent="." index="143" unique_id=1517342004]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_146" parent="." index="144" unique_id=1741026273]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_147" parent="." index="145" unique_id=356339873]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_148" parent="." index="146" unique_id=885187324]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_149" parent="." index="147" unique_id=239824467]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_150" parent="." index="148" unique_id=1436318666]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_151" parent="." index="149" unique_id=1232935942]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_152" parent="." index="150" unique_id=567749119]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Areas_153" parent="." index="151" unique_id=946016539]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_154" parent="." index="152" unique_id=522319378]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_155" parent="." index="153" unique_id=833756311]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_156" parent="." index="154" unique_id=1054167973]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_157" parent="." index="155" unique_id=28766123]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("5_m06dq")
+
+[node name="Areas_158" parent="." index="156" unique_id=1252862428]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_159" parent="." index="157" unique_id=1649128119]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_160" parent="." index="158" unique_id=994516935]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_161" parent="." index="159" unique_id=1651838239]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_162" parent="." index="160" unique_id=669105969]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_164" parent="." index="161" unique_id=458140992]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_165" parent="." index="162" unique_id=1015708825]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("5_m06dq")
+
+[node name="Areas_166" parent="." index="163" unique_id=1453438614]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="Areas_168" parent="." index="164" unique_id=715015299]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Areas" parent="." index="165" unique_id=1554306959]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+material_override = ExtResource("3_k81vj")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." index="166" unique_id=86497827]
+transform = Transform3D(3151.9268, 0, 0, 0, 1, 0, 0, 0, 3151.9268, 0, -10, 0)
+mesh = SubResource("PlaneMesh_5tomt")
+surface_material_override/0 = SubResource("StandardMaterial3D_nlp6p")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D" index="0" unique_id=1273753625]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" index="0" unique_id=1809819143]
+shape = SubResource("WorldBoundaryShape3D_5tomt")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="167" unique_id=1613968677]
+transform = Transform3D(1, 0, 0, 0, -0.25881904, 0.9659258, 0, -0.9659258, -0.25881904, 0, 0, 0)
